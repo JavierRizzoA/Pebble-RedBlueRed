@@ -36,6 +36,14 @@ static void select_click_handler(ClickRecognizerRef recognizer, void *context) {
   player_flip();
 }
 
+static void up_click_handler(ClickRecognizerRef recognizer, void *context) {
+  player_flip();
+}
+
+static void down_click_handler(ClickRecognizerRef recognizer, void *context) {
+  player_flip();
+}
+
 static void back_click_handler(ClickRecognizerRef recognizer, void *context) {
   window_stack_pop(true);
   game_deinit();
@@ -43,6 +51,8 @@ static void back_click_handler(ClickRecognizerRef recognizer, void *context) {
 
 static void click_config_provider(void *context) {
   window_single_click_subscribe(BUTTON_ID_SELECT, select_click_handler);
+  window_single_click_subscribe(BUTTON_ID_UP, select_click_handler);
+  window_single_click_subscribe(BUTTON_ID_DOWN, select_click_handler);
   window_single_click_subscribe(BUTTON_ID_BACK, back_click_handler);
 }
 
