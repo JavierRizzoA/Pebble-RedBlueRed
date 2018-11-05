@@ -1,0 +1,168 @@
+{
+  "name": "Red Blue Red!",
+  "author": "Javier Rizzo",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Red Blue Red!",
+    "uuid": "61883b88-088e-454f-9426-22f85a1ce5d7",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": false
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "bitmap",
+          "name": "PLAYER_RED",
+          "file": "images/player-red.png",
+          "targetPlatforms": [
+            "basalt",
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "PLAYER_BLUE",
+          "file": "images/player-blue.png",
+          "targetPlatforms": [
+            "basalt",
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "BLUE",
+          "file": "images/blue.png",
+          "targetPlatforms": [
+            "basalt",
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_PLAY",
+          "file": "images/icon-play.png",
+          "targetPlatforms": [
+            "basalt",
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_DISMISS",
+          "file": "images/icon-dismiss.png",
+          "targetPlatforms": [
+            "basalt",
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "RED",
+          "file": "images/red.png",
+          "targetPlatforms": [
+            "basalt",
+            "chalk"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "PLAYER_RED",
+          "file": "images/player-red-bw.png",
+          "targetPlatforms": [
+            "aplite",
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "PLAYER_BLUE",
+          "file": "images/player-blue-bw.png",
+          "targetPlatforms": [
+            "aplite",
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "BLUE",
+          "file": "images/blue-bw.png",
+          "targetPlatforms": [
+            "aplite",
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_PLAY",
+          "file": "images/icon-play-bw.png",
+          "targetPlatforms": [
+            "aplite",
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "ICON_DISMISS",
+          "file": "images/icon-dismiss-bw.png",
+          "targetPlatforms": [
+            "aplite",
+            "diorite"
+          ]
+        },
+        {
+          "type": "bitmap",
+          "name": "RED",
+          "file": "images/red-bw.png",
+          "targetPlatforms": [
+            "aplite",
+            "diorite"
+          ]
+        },
+        {
+          "type": "font",
+          "name": "FONT_IMPACT_35",
+          "file": "fonts/impact.ttf",
+          "compatibility": "2.7"
+        },
+        {
+          "type": "font",
+          "name": "FONT_IMPACT_28",
+          "file": "fonts/impact.ttf",
+          "compatibility": "2.7"
+        },
+        {
+          "type": "font",
+          "name": "FONT_IMPACT_16",
+          "file": "fonts/impact.ttf",
+          "compatibility": "2.7"
+        },
+        {
+          "menuIcon": true,
+          "type": "png",
+          "name": "IMAGE_MENU_ICON",
+          "file": "images/icon-bw.png",
+          "targetPlatforms": [
+            "aplite",
+            "basalt",
+            "chalk",
+            "diorite"
+          ]
+        }
+      ]
+    }
+  }
+}
